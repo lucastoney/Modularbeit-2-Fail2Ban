@@ -1,4 +1,4 @@
-# Technischer Teil der Modularbeit: Fail2ban
+# Technischer Teil der Modularbeit 2: Fail2ban
 
 Dieses Repository enthält den technischen Teil der Modularbeit zur Absicherung eines SSH-Dienstes mit Fail2ban in einer isolierten Laborumgebung.
 
