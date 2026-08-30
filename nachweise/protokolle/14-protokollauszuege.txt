@@ -1,0 +1,56 @@
+=== SSH journal ===
+Aug 05 08:18:23 fail2ban-server sshd[3530]: Failed password for labuser from 192.168.56.20 port 36580 ssh2
+Aug 05 08:18:26 fail2ban-server sshd[3532]: Failed password for labuser from 192.168.56.20 port 36586 ssh2
+Aug 05 08:18:51 fail2ban-server sshd[3586]: Failed password for labuser from 192.168.56.20 port 56960 ssh2
+Aug 05 08:20:23 fail2ban-server sshd[3736]: Accepted password for labuser from 192.168.56.20 port 53836 ssh2
+Aug 05 08:20:40 fail2ban-server sshd[3782]: Failed password for labuser from 192.168.56.20 port 49560 ssh2
+Aug 05 08:20:44 fail2ban-server sshd[3784]: Failed password for labuser from 192.168.56.20 port 49566 ssh2
+Aug 05 08:20:47 fail2ban-server sshd[3786]: Failed password for labuser from 192.168.56.20 port 49574 ssh2
+Aug 05 08:21:32 fail2ban-server sshd[3883]: Accepted password for labuser from 192.168.56.20 port 41154 ssh2
+Aug 05 08:25:17 fail2ban-server sshd[4916]: Failed password for labuser from 192.168.56.20 port 44976 ssh2
+Aug 05 08:25:23 fail2ban-server sshd[4926]: Failed password for labuser from 192.168.56.20 port 41712 ssh2
+Aug 05 08:25:48 fail2ban-server sshd[4981]: Failed password for labuser from 192.168.56.20 port 37544 ssh2
+Aug 05 08:26:52 fail2ban-server sshd[5114]: Accepted password for labuser from 192.168.56.20 port 39478 ssh2
+Aug 05 08:26:59 fail2ban-server sshd[5159]: Failed password for labuser from 192.168.56.20 port 46986 ssh2
+Aug 05 08:27:04 fail2ban-server sshd[5161]: Failed password for labuser from 192.168.56.20 port 46988 ssh2
+Aug 05 08:27:09 fail2ban-server sshd[5171]: Failed password for labuser from 192.168.56.20 port 50656 ssh2
+Aug 05 08:27:29 fail2ban-server sshd[5253]: Accepted password for labuser from 192.168.56.20 port 36828 ssh2
+=== Fail2ban actions ===
+2026-08-05 08:18:52,166 fail2ban.actions        [3476]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:19:22,035 fail2ban.actions        [3476]: NOTICE  [sshd] Unban 192.168.56.20
+2026-08-05 08:20:48,808 fail2ban.actions        [3476]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:21:16,389 fail2ban.actions        [3476]: NOTICE  [sshd] Unban 192.168.56.20
+2026-08-05 08:25:49,219 fail2ban.actions        [4866]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:26:18,369 fail2ban.actions        [4866]: NOTICE  [sshd] Unban 192.168.56.20
+2026-08-05 08:27:09,738 fail2ban.actions        [4866]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:27:24,198 fail2ban.actions        [4866]: NOTICE  [sshd] Unban 192.168.56.20
+=== Service journal ===
+Aug 05 08:12:17 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:12:39 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:12:41 fail2ban-server fail2ban-client[3278]: Shutdown successful
+Aug 05 08:12:41 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:12:41 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:17:25 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:17:25 fail2ban-server fail2ban-client[3403]: Shutdown successful
+Aug 05 08:17:25 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:17:25 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:17:58 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:17:58 fail2ban-server fail2ban-client[3473]: Shutdown successful
+Aug 05 08:17:58 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:17:58 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:21:46 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:21:47 fail2ban-server fail2ban-client[3974]: Shutdown successful
+Aug 05 08:21:47 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:21:47 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:24:37 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:24:37 fail2ban-server fail2ban-client[4778]: Shutdown successful
+Aug 05 08:24:37 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:24:37 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:24:56 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:24:57 fail2ban-server fail2ban-client[4863]: Shutdown successful
+Aug 05 08:24:57 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:24:57 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Aug 05 08:27:34 fail2ban-server systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+Aug 05 08:27:35 fail2ban-server fail2ban-client[5322]: Shutdown successful
+Aug 05 08:27:35 fail2ban-server systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+Aug 05 08:27:35 fail2ban-server systemd[1]: Started fail2ban.service - Fail2Ban Service.

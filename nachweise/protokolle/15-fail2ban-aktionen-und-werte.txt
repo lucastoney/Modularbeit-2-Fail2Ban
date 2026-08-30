@@ -1,0 +1,8 @@
+2026-08-05 08:18:52,166 fail2ban.actions        [3476]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:19:22,035 fail2ban.actions        [3476]: NOTICE  [sshd] Unban 192.168.56.20
+2026-08-05 08:20:48,808 fail2ban.actions        [3476]: NOTICE  [sshd] Ban 192.168.56.20
+2026-08-05 08:21:16,389 fail2ban.actions        [3476]: NOTICE  [sshd] Unban 192.168.56.20
+=== current jail configuration ===
+3
+60
+30

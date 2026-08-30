@@ -1,0 +1,20 @@
+=== OS ===
+Ubuntu 24.04.3 LTS
+=== Kernel ===
+6.8.0-86-generic
+=== Fail2ban ===
+Fail2Ban v1.0.2
+=== Config test ===
+OK: configuration test is successful
+=== Service ===
+active
+Server replied: pong
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed:	0
+|  |- Total failed:	0
+|  `- Journal matches:	_SYSTEMD_UNIT=sshd.service + _COMM=sshd
+`- Actions
+   |- Currently banned:	0
+   |- Total banned:	0
+   `- Banned IP list:
