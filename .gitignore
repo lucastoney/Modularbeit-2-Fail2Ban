@@ -1,0 +1,29 @@
+# Zugangsdaten und lokale Umgebungsvariablen
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Lokale Vagrant-Daten und Schlüssel
+.vagrant/
+
+# Virtuelle Python-Umgebungen und Zwischendateien
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# Temporäre Office-Dateien und Sicherungskopien
+~$*
+*.tmp
+*.bak
+
+# Betriebssysteme und Entwicklungsumgebungen
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
