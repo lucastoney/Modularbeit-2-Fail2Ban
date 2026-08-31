@@ -1,13 +1,17 @@
-# Technischer Teil der Modularbeit 2: Fail2ban
+# Technischer Teil der Modulararbeit 2: Fail2ban
 
-Dieses Repository enthält den technischen Teil der Modularbeit zur Absicherung eines SSH-Dienstes mit Fail2ban in einer isolierten Laborumgebung.
+Dieses Repository enthält die technische Umsetzung der Modulararbeit zur Absicherung eines SSH-Dienstes mit Fail2ban in einer isolierten Laborumgebung.
 
-## Ordnerübersicht
+## Technischer Aufbau
 
+- `Vagrantfile`: Definition der Server- und Tester-VM
 - `konfiguration/`: Fail2ban- und SSH-Konfigurationsdateien
-- `skripte/`: Bereitstellung der beiden virtuellen Maschinen
-- `nachweise/abbildungen/`: technische Diagramme
-- `nachweise/protokolle/`: aufgezeichnete Resultate der Laborumgebung
-- `nachweise/bildschirmfotos/`: ausgewählte, bereinigte technische Nachweise
+- `skripte/`: Bereitstellung und Konfiguration der beiden virtuellen Maschinen
 
-Die schriftliche Word-Dokumentation wird separat eingereicht und ist nicht Bestandteil dieses Repositorys.
+## Voraussetzungen
+
+- Vagrant
+- VirtualBox
+- lokale Umgebungsvariable `FAIL2BAN_LAB_PASSWORD` ohne Speicherung des Passworts im Repository
+
+Die schriftliche Dokumentation wird separat als Word-Datei eingereicht.
